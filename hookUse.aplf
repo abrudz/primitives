@@ -1,0 +1,18 @@
+hookUse
+⍝ Monadic:
+10∘<Ⓞ/15?20 ⍝ elements above 10
+⊢/Ⓞ,'Hello' ⍝ insert last at beginning
+⌽Ⓞ≡¨'racecar' 'racer' 'HANNA' ⍝ palindrome checking
+∧/⊃Ⓞ='aaa' ⍝ all same?
+∪Ⓞ≢¨'Hello' 'Halo' ⍝ has duplicates?
+⍋⍤⍋Ⓞ≡3 1 4 2 5 ⍝ permutation vector?
+⌊Ⓞ≠Ⓞ/1 3.2 ¯5 0 ¯3.2 8.1 ⍝ choose floats
+
+⍝ Dyadic:
+10⍳Ⓞ∊1 3 5 ⍝ Boolean vector with 1s at positions
+'abc' 'def'⊂Ⓞ⎕NPUT'myfile.txt'
+5 10⍪Ⓞ⊥1 0 2 ⍝ evaluate x²+2 at 5 and 10
+'abracadabra'⊖Ⓞ⍳'ab' ⍝ index from rear
+'abc'⍴Ⓞ⍴'x' ⍝ ⍺ gives its shape to ⍵
+(?3)-Ⓞ↓⍳10 ⍝ drop last x elements from y
+3-⍤?Ⓞ↓⍳10 ⍝ ditto
