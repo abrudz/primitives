@@ -9,10 +9,9 @@
      (c←⎕NS ⍬).⎕CT←1E¯14   ⍝ tolerant space
      c.≢∘⌊⍨⍵⍵:⎕SIGNAL 11   ⍝ not ints: DOMAIN
 
-     0∊⎕NC'⍺':0⊢∘⍺⍺∇∇⍵⍵⊢⍵ ⍝ monadic: placeholder left arg
+     0∊⎕NC'⍺':0⊢∘⍺⍺∇∇⍵⍵⊢⍵  ⍝ monadic: placeholder left arg
 
      ⍺←{⍵ ⋄ ⍺⍺}            ⍝ monadic: pass-thorugh
-     a←⍺                   ⍝ [17941]
      k←⌽3⍴⌽⍵⍵              ⍝ r → r r r    q r → r q r    p q r → p q r
      n←k c.<0
      d←|≡¨3⍴⍵ ⍺ ⍵ ⍵
@@ -20,7 +19,7 @@
      k⌊←d
 
      b←1↓k<d
-     b∧←0≠1↓d ⍝ bottomed out
+     b∧←0≠1↓d  ⍝ bottomed out
      r←⍵⍵<0
      ww←r+⍵⍵
      ww+←(⌈/d)×r∧0=ww
@@ -30,3 +29,4 @@
      c.>/b:S∘⍵¨⍺
      c.∧/b:⍺ S¨⍵
  }
+ 
