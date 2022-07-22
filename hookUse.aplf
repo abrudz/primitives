@@ -3,6 +3,7 @@ hookUse
 10∘<Ⓞ/15?20 ⍝ elements above 10
 ⊢/Ⓞ,'Hello' ⍝ insert last at beginning
 ⌽Ⓞ≡¨'racecar' 'racer' 'HANNA' ⍝ palindrome checking
+⌽Ⓞ≡¨Ⓞ/'racecar' 'racer' 'HANNA' ⍝ palindrome filtering
 ∧/⊃Ⓞ='aaa' ⍝ all same?
 ∪Ⓞ≢¨'Hello' 'Halo' ⍝ has duplicates?
 ⍋⍤⍋Ⓞ≡3 1 4 2 5 ⍝ permutation vector?
