@@ -3,6 +3,6 @@ In Dyalog 18.2 or higher:
 `]get /path/to/repo -u`
 
 Now use:
-* `X Ⓓ Y` (`X D̲ Y`) for `X⊇Y` which is the Select function
-* `f Ö g` for `f⍥g` which is Depth
-* `f Ⓞ g` (`f O̲ g`) for `f⍛g` which is Hook
+* `X Ⓓ Y` (`X D̲ Y`) for `X⊇Y` which is the [Select function](https://aplwiki.com/wiki/From)
+* `f Ö g` for `f⍥g` which is the [Depth operator](https://dfns.dyalog.com/n_Depth.htm)
+* `f Ⓞ g` (`f O̲ g`) for `f⍛g` which is the [Hook operator](https://aplwiki.com/wiki/Reverse_Compose)
