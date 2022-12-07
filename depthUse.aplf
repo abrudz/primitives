@@ -1,5 +1,5 @@
  depthUse
- 'sep'(,⍥1)'some' 'strings' 'here' ⍝ join entire ⍺ to each of ⍵
+ 'sep'(,Ö 1)'some' 'strings' 'here' ⍝ join entire ⍺ to each of ⍵
  ⎕UCS Ö 1⊢'Hello' 'world'
  (10⍴1 4/1 ¯1)⎕C Ö 0⊢'helloworld' ⍝ make function scalar
  (1 2 3)(3 2 1)Ⓓ Ö 1⊢'ABC' ⍝ https://stackoverflow.com/q/62319267
