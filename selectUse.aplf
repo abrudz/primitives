@@ -1,8 +1,9 @@
  selectUse
- ?⍤≢Ⓞ⊃⎕A ⍝ random element
- ?⍨⍤≢Ⓞ Ⓓ ⎕A ⍝ shuffle
+ ?⍤≢Ⓞ Ⓓ⎕A ⍝ random element
+ 3(?∘≢Ⓓ⊢)⎕A ⍝ 3 random elements
+ ?⍨⍤≢Ⓞ Ⓓ⎕A ⍝ shuffle
  ⍋Ⓞ Ⓓ'abracadabra'         ⍝ sort
  10 50 30 30 20⍋Ⓞ Ⓓ'Hello' ⍝ sorts
  0 60 70 80 90(⍸Ⓓ'FDCBA'⍨)3 14 15 92 65 ⍝ grade students
  'hello world'(⍋⍤∊Ⓓ⊣)'aeiou' ⍝ move vowels to end
- (2÷⍨1⊥⊢Ⓓ⍨⍋Ⓓ⍨2⌈⍤÷⍨0 1+≢)3 1 4 1 5 9⍝ median
+ (2÷⍨1⊥⊢Ⓓ⍨⍋Ⓓ⍨2⌈⍤÷⍨0 1+≢)3 1 4 1 5 9 ⍝ median
